@@ -1,0 +1,23 @@
+.carousel-canvas {
+	background: #99ccff;
+	padding:10px 15px 40px 15px;
+	margin: 0 auto;
+}
+.carousel-inner {
+	background:#cc6633;
+	overflow: hidden;
+	
+	&>.item {
+	&>.layer {
+	display: inline-block !important;
+	float:right;
+	position: relative;
+	right: -210px;
+	top: -88px;
+
+	}
+	&>.layer2 {
+		display: inline-block !important;
+	}
+	}
+}
